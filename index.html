@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>클래스 가이드 | 학원·교습소 인증 제도</title>
+<meta name="description" content="클래스 가이드는 학원의 강점을 체계적으로 정리해 확인 가능한 정보로 제공하고, 학부모가 신뢰하고 선택할 수 있도록 돕는 검증 기반의 학원 정보 시스템입니다.">
+<link rel="icon" href="./assets/logo.png">
+
+<!-- Pretendard (jsdelivr CDN) -->
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/variable/pretendardvariable.css" />
+
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<header class="header" id="top">
+  <div class="header__inner">
+    <a href="#top" class="logo" aria-label="클래스 가이드 홈으로 이동">
+      <img src="./assets/logo.png" alt="CLASS GUIDE 클래스가이드 인증" class="logo__img">
+    </a>
+
+    <nav class="gnb" id="gnb">
+      <ul class="gnb__list">
+        <li><a href="#why" class="gnb__link">클래스 가이드 소개</a></li>
+        <li><a href="#verify" class="gnb__link">검증과 운영 방법</a></li>
+        <li><a href="#academies" class="gnb__link">제공 물품 안내</a></li>
+        <li><a href="#social" class="gnb__link">사회공헌</a></li>
+      </ul>
+      <a href="#" class="btn btn--outline gnb__cta js-cta" data-cta>인증신청</a>
+    </nav>
+
+    <button type="button" class="hamburger" id="hamburgerBtn" aria-label="메뉴 열기" aria-expanded="false" aria-controls="gnb">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- SLIDE 1 : HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__arc" aria-hidden="true">
+      <img src="./assets/hero-arc.png" alt="">
+    </div>
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="eyebrow eyebrow--gold">학원 · 교습소 인증 제도</p>
+        <h1 class="hero__title">
+          좋은 학원이라는 말을,<br>
+          <strong>확인 가능한 근거</strong><span class="hero__title-muted">로 바꿉니다</span>
+        </h1>
+        <p class="body-text">
+          학원이 제출한 증빙서류를 공개된 기준으로 확인하고,<br class="br-desktop">
+          확인된 사실만 표기합니다. 심사 항목 전문은 공개됩니다.
+        </p>
+      </div>
+      <div class="hero__media">
+        <img src="./assets/hero-photo.jpg" alt="클래스가이드 인증 학원 스튜디오 및 인증 명판 이미지">
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 2 : WHY CLASS GUIDE -->
+  <section class="why" id="why">
+    <div class="why__inner">
+      <div class="why__head">
+        <p class="eyebrow eyebrow--gold">WHY CLASS GUIDE</p>
+        <h2 class="section-title">확인할 수 없는 말과,<br>확인된 사실은 다릅니다</h2>
+        <p class="body-text">
+          클래스 가이드는 <strong>학원의 강점을 체계적으로 정리해 확인 가능한 정보로 제공</strong>하고,<br>
+          <strong>학부모가 신뢰하고 선택할 수 있도록 돕는 검증 기반의 학원 정보 시스템</strong>입니다.<br>
+          일회성 수상이 아닌, 확인 가능한 정보와 기준에 기반한 <strong>지속 가능한 신뢰 시스템을 지향</strong>합니다.
+        </p>
+      </div>
+
+      <div class="why__body">
+        <div class="compare">
+          <div class="compare-card compare-card--plain">
+            <p class="compare-card__label">일반 홍보 문구</p>
+            <ul class="compare-card__list">
+              <li>최고의 강사진</li>
+              <li>차별화된 커리큘럼</li>
+              <li>학부모 만족도 1위</li>
+            </ul>
+            <hr class="compare-card__divider">
+            <p class="compare-card__result">확인할 방법이 없습니다</p>
+          </div>
+
+          <div class="compare-card compare-card--verified">
+            <p class="compare-card__label">클래스가이드 표기</p>
+            <ul class="compare-card__list">
+              <li>충남대학교 음악학과 석사</li>
+              <li>피아노 교습 경력 7년</li>
+              <li>지자체 연계 사업 8건</li>
+            </ul>
+            <hr class="compare-card__divider">
+            <p class="compare-card__result">모두 서류로 확인된 사실</p>
+          </div>
+        </div>
+
+        <div class="why__cert">
+          <img src="./assets/why-certificate.jpg" alt="클래스가이드 인증서 샘플 이미지">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 3 : WHAT WE VERIFY -->
+  <section class="verify" id="verify">
+    <div class="verify__inner">
+      <div class="verify__head">
+        <div class="verify__ribbon" aria-hidden="true">
+          <img src="./assets/verify-ribbon.png" alt="">
+        </div>
+        <div class="verify__head-text">
+          <p class="eyebrow eyebrow--gold">WHAT WE VERIFY</p>
+          <h2 class="section-title">세 가지를 확인합니다.<br>그 밖의 것은 확인하지 않습니다</h2>
+          <p class="body-text">
+            클래스 가이드는 <strong>외부 전문자문기관이 3개월마다 샘플 검사를 진행</strong>하고,<br>
+            <strong>학원의 핵심정보를 쉽고 빠르게 확인</strong>할 수 있도록 서비스를 제공합니다.
+          </p>
+        </div>
+      </div>
+
+      <div class="verify__row">
+        <div class="verify__row-head">
+          <span class="pill">검증과 운영방법</span>
+          <span class="hr-line" aria-hidden="true"></span>
+        </div>
+        <div class="steps steps--arrows">
+          <div class="step">
+            <div class="step__icon"><img src="./assets/verify-icon-standard.png" alt=""></div>
+            <div class="step__text">
+              <p class="step__title">1. 기준설계</p>
+              <span class="step__rule"></span>
+              <p class="step__desc">교육 운영 안전 만족도 등<br>객관적 인증 기준 설계</p>
+            </div>
+          </div>
+          <div class="step__arrow" aria-hidden="true"><img src="./assets/arrow-right.png" alt=""></div>
+          <div class="step">
+            <div class="step__icon"><img src="./assets/verify-icon-review.png" alt=""></div>
+            <div class="step__text">
+              <p class="step__title">2. 자료검증</p>
+              <span class="step__rule"></span>
+              <p class="step__desc">제출 자료 및 확인 가능한 근거를<br>기반으로 신뢰성 검증</p>
+            </div>
+          </div>
+          <div class="step__arrow" aria-hidden="true"><img src="./assets/arrow-right.png" alt=""></div>
+          <div class="step">
+            <div class="step__icon"><img src="./assets/verify-icon-followup.png" alt=""></div>
+            <div class="step__text">
+              <p class="step__title">3. 사후점검</p>
+              <span class="step__rule"></span>
+              <p class="step__desc">인증 이후 정기 점검을 통한<br>지속적인 품질 관리</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="verify__row">
+        <div class="verify__row-head">
+          <span class="pill">확인 가능한 사항</span>
+          <span class="hr-line" aria-hidden="true"></span>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step__icon"><img src="./assets/verify-icon-expertise.png" alt=""></div>
+            <div class="step__text">
+              <p class="step__title">전문성</p>
+              <span class="step__rule"></span>
+              <p class="step__desc">전공과 학위, 보유 자격증<br>강의 경력, 외부 사업 수행 실적</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step__icon"><img src="./assets/verify-icon-safety.png" alt=""></div>
+            <div class="step__text">
+              <p class="step__title">안전성</p>
+              <span class="step__rule"></span>
+              <p class="step__desc">응급대응 자격, 안전설비 보유<br>배상책임보험 가입, 시설 점검 이력</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step__icon"><img src="./assets/verify-icon-service.png" alt=""></div>
+            <div class="step__text">
+              <p class="step__title">서비스</p>
+              <span class="step__rule"></span>
+              <p class="step__desc">계약서와 환불 규정, 수강료 고지 방식<br>민원 처리 절차, 안내 게시 여부</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 4 : FOR ACADEMIES -->
+  <section class="academies" id="academies">
+    <div class="academies__arc" aria-hidden="true">
+      <img src="./assets/academies-arc.png" alt="">
+    </div>
+    <div class="academies__inner">
+      <div class="academies__head">
+        <p class="eyebrow eyebrow--gold">FOR ACADEMIES</p>
+        <h2 class="section-title section-title--light">인증 학원에<br>제공되는 물품</h2>
+      </div>
+
+      <div class="academies__grid">
+        <div class="academy-card">
+          <div class="academy-card__media">
+            <img src="./assets/academies-plaque.jpg" alt="메탈 현판 - 입구 부착용 등급별 엠블럼">
+          </div>
+          <p class="academy-card__title">메탈 현판</p>
+          <p class="academy-card__desc">입구 부착용<br>등급별 엠블럼</p>
+        </div>
+
+        <div class="academy-card">
+          <div class="academy-card__media">
+            <img src="./assets/academies-cert.jpg" alt="인증서 - 확인 항목과 근거 서류 병기">
+          </div>
+          <p class="academy-card__title">인증서</p>
+          <p class="academy-card__desc">확인 항목과 근거<br>서류 병기</p>
+        </div>
+
+        <div class="academy-card">
+          <div class="academy-card__media academy-card__media--phone">
+            <div class="phone-mock">
+              <img src="./assets/academies-phone.png" alt="" class="phone-mock__frame" aria-hidden="true">
+              <img src="./assets/academies-qr.png" alt="온라인 엠블럼 QR 코드" class="phone-mock__qr">
+              <p class="phone-mock__caption">이솔피아노교습소<br>인증정보 확인</p>
+            </div>
+          </div>
+          <p class="academy-card__title">온라인 엠블럼 · 학원 페이지</p>
+          <p class="academy-card__desc">네이버플레이스용<br>QR 연결 상세페이지</p>
+        </div>
+      </div>
+
+      <p class="academies__footnote">*제공 물품은 변경되거나 시안이 교체될 수 있습니다.</p>
+    </div>
+  </section>
+
+  <!-- SLIDE 5 : SOCIAL CONTRIBUTION -->
+  <section class="social" id="social">
+    <div class="social__inner">
+      <div class="social__head">
+        <p class="eyebrow eyebrow--gold">SOCIAL CONTRIBUTION</p>
+        <h2 class="section-title">인증으로 얻은 것을, 아이들에게 돌려줍니다</h2>
+        <p class="body-text">
+          클래스 가이드는 <strong>심사비의 일정 비율을 공익 활동에 기부</strong>하고, <strong>적립액과 사용 내역은 매년 공개</strong>합니다.
+        </p>
+      </div>
+
+      <div class="social__grid">
+        <div class="social-card">
+          <div class="social-card__logo"><img src="./assets/social-hannam.png" alt="한남대학교"></div>
+          <p class="social-card__org">한남대학교</p>
+          <p class="social-card__title">장학금 전달</p>
+          <p class="social-card__desc">인증 학원의 추천으로 학생 5명 선발.<br>최종 선발은 대학 장학위원회가 맡습니다.</p>
+          <hr class="social-card__divider">
+          <p class="social-card__date">12.20 예정(일정 변경 가능성 있음)</p>
+        </div>
+
+        <div class="social-card">
+          <div class="social-card__logo"><img src="./assets/social-kookmin.png" alt="국민일보"></div>
+          <p class="social-card__org">국민일보</p>
+          <p class="social-card__title">우수학생 시상</p>
+          <p class="social-card__desc">국민일보 브랜드대상 우수학생 부문에서<br>학생 2명을 시상합니다.</p>
+          <hr class="social-card__divider">
+          <p class="social-card__date">12.28 예정(일정 변경 가능성 있음)</p>
+        </div>
+
+        <div class="social-card">
+          <div class="social-card__logo"><img src="./assets/social-child-welfare.png" alt="아동복지재단"></div>
+          <p class="social-card__org">아동복지재단</p>
+          <p class="social-card__title">기부금 후원</p>
+          <p class="social-card__desc">심사비의 일정 비율을 적립해<br>아동복지 재단에 기부합니다.</p>
+          <hr class="social-card__divider">
+          <p class="social-card__date">연 1회 내역 공개</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDE 6 (top) : SURVEY -->
+  <section class="survey" id="survey">
+    <div class="survey__inner">
+      <p class="eyebrow eyebrow--gold">SURVEY</p>
+      <h2 class="section-title">학부모님의 의견을 듣고 준비하고 있습니다.</h2>
+      <p class="body-text">
+        클래스가이드는 아직 준비 중인 제도입니다. 이 인증이 실제로 도움이 될지, 어떤 점이 부족한지 알려주세요. 약 3분이 걸립니다.
+      </p>
+      <a href="#" class="btn btn--solid js-cta" data-cta>인증신청</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- SLIDE 6 (bottom) : FOOTER -->
+<footer class="footer">
+  <div class="footer__inner">
+    <img src="./assets/logo-footer.png" alt="CLASS GUIDE 클래스가이드 인증" class="footer__logo">
+    <p class="footer__info">
+      클래스가이드 인증위원회<br>
+      운영기관 (주)폭스아이디어 · 대전광역시 대덕구 한남로 70<br>
+      산학협력 과제번호 0000000-000 · 특허출원 10-0000000
+    </p>
+    <hr class="footer__divider">
+    <p class="footer__disclaimer">
+      클래스가이드는 민간 인증 제도이며 정부 또는 공공기관의 인증이 아닙니다. 자문위원은 개인 자격으로 참여하며 소속 기관은 본 사업을 후원하거나 승인하지 않습니다.
+    </p>
+  </div>
+</footer>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
